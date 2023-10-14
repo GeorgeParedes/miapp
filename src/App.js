@@ -22,4 +22,16 @@ function App() {
   );
 }
 
-export default App;
+import React from 'react';
+import './miapp.css';
+import Login from './Login';
+
+function miapp() {
+  return (
+    <div className="miapp">
+      <Login />
+    </div>
+  );
+}
+
+export default miapp;
